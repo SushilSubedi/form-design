@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background: url(e.jpg) fixed center;
+    background-position: cover;
+}
+section{
+    width: 100%;
+    height: 100px;
+}
+.container{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:340px;
+    text-align: center;
+}
+.login{
+    position: relative;
+    box-sizing: border-box;
+    padding: 40px 30px;
+    transition: .5s;
+}
+.login:hover{
+    background:rgba(248, 243, 243, 0.1);
+    box-sizing: 0 0 24px;
+    opacity: 1.5;
+
+}
+h1{
+    text-transform: uppercase;
+    margin:12 0 32px;
+    color:whitesmoke;
+    padding: 10 10 20px;
+    text-align: center;
+    letter-spacing: 8px;
+
+}
+input{
+    display: block;
+    padding:10px;
+    margin:2px;
+    width:250px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius:25px;
+    outline:none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    border:none;
+    color:black;
+    text-transform: uppercase;
+    background: burlywood;
+}
+
+.login input::placeholder{
+    color:grey;
+}
+a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 18px;
+}
+input[type="submit"]{
+    color:#fff;
+    background: rgb(196, 92, 110);
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background: rgb(214, 81, 33);
+}
+label{
+    color:whitesmoke;
+    margin-right:180px; 
+}
